@@ -22,12 +22,7 @@ pipeline {
         sh './jenkins/push.sh'
       }
     }
-    
-    stage('Deploy') {
-      steps {
-        sh './jenkins/deploy.sh'
-      }
-    }
+
   }
   post {
     always {
