@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t sona09/dp-alpine:latest .
+docker build -t sona09/tomcat:latest .
